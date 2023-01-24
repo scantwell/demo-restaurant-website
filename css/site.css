@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Kreon:wght@700&family=Nunito+Sans:wght@300&display=swap');
+
+html {
+    font-size: 36px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 300;
+    text-align: center;
+}
+
+body {
+    max-width: 1440px;
+    margin: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Kreon', serif;
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 4rem;
+    text-transform: uppercase;
+    letter-spacing: 1rem;
+    margin: 0;
+    line-height: 1em;
+    text-indent: 1rem;
+}
+
+h2 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+header {
+    background-color: #000000;
+    font-size: 0.67rem;
+    text-align: right;
+    padding: 0.4rem;
+}
+
+header a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: .3rem;
+}
+
+footer {
+    background-color: #000000;
+    color: #ffffff;
+    font-size: .67rem;
+    padding: .4rem;
+    text-align: center;
+}
+
+.hero {
+    text-align: center;
+    color:#ffffff;
+    position: relative;
+}
+
+.hero img {
+    max-width: 100%;
+
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hero-text p {
+    margin: 0;
+}
+
+.main-info {
+    text-align: center;
+}
+
+.highlights {
+    display: flow-root;
+}
+
+.highlights .left {
+    width: 50%;
+    float: left;
+}
+
+.highlights .right {
+    width: 50%;
+    float: right;
+}
+
+.highlights-text {
+    display: inline-block;
+    width: 50%;
+    text-align: left;
+}
+
+.highlights-text h2, .highlights-text p {
+    padding-left: .67rem;
+}
+
+.food-menu {
+    text-align: center;
+}
+
+.food-items {
+    list-style-type: none;
+    padding: 0;
+}
+
+.food-items li {
+    margin-bottom: 2rem;
+}
